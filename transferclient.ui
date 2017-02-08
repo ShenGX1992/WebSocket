@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TransferClient</class>
+ <widget class="QDialog" name="TransferClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TransferClient</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 11pt &quot;微软雅黑&quot;;
+border: 2px solid black;
+border-radius: 5px;</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_input">
+   <property name="geometry">
+    <rect>
+     <x>28</x>
+     <y>207</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Quit">
+   <property name="geometry">
+    <rect>
+     <x>298</x>
+     <y>248</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_connect">
+   <property name="geometry">
+    <rect>
+     <x>18</x>
+     <y>248</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Connect</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_send">
+   <property name="geometry">
+    <rect>
+     <x>208</x>
+     <y>248</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Send</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_disconnect">
+   <property name="geometry">
+    <rect>
+     <x>108</x>
+     <y>248</y>
+     <width>80</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Disconn</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>2</x>
+     <y>2</y>
+     <width>396</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: bold 12pt &quot;微软雅黑&quot;;
+border:none;
+background-color: lightblue;</string>
+   </property>
+   <property name="text">
+    <string>传输客户端</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="listWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>51</y>
+     <width>341</width>
+     <height>141</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
